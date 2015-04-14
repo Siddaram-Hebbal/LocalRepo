@@ -1,0 +1,31 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+	
+	<modelVersion>4.0.0</modelVersion>
+	
+	<!-- <parent>
+		<groupId>com.gravitant.spi</groupId>
+		 <artifactId>service-provider-interface</artifactId> 
+		<version>8.0.0-SNAPSHOT</version>
+	 </parent>  -->
+	
+	<groupId>com.gravitant.spi</groupId>
+	<artifactId>spi-contact</artifactId>
+	<version>8.0.0-SNAPSHOT</version>
+	
+	<dependencies>
+		<dependency>
+			<groupId>com.gravitant.spi</groupId>
+			<artifactId>spi-common</artifactId>
+			<version>${project.version}</version>
+		</dependency>
+	</dependencies>
+	
+	<repositories>
+        <repository>
+          	<id>snapshots</id>
+          <url>http://infrastructure-repository-nexus.grav.cm:8081/nexus/content/repositories/snapshots</url>
+        </repository>
+    </repositories>
+    
+</project>

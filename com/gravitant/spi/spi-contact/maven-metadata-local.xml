@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<metadata>
+  <groupId>com.gravitant.spi</groupId>
+  <artifactId>spi-contact</artifactId>
+  <versioning>
+    <versions>
+      <version>8.0.0-SNAPSHOT</version>
+    </versions>
+    <lastUpdated>20150414122002</lastUpdated>
+  </versioning>
+</metadata>
